@@ -42,7 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientDAO.cs" />
+    <Compile Include="EleveDAO.cs" />
+    <Compile Include="GroupeDAO.cs" />
+    <Compile Include="MatiereDAO.cs" />
+    <Compile Include="NiveauDAO.cs" />
+    <Compile Include="ProfDAO.cs" />
+    <Compile Include="SeanceDAO.cs" />
     <Compile Include="utils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

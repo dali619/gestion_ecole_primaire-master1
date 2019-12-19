@@ -46,17 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accueil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accueil.designer.cs">
+      <DependentUpon>Accueil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connecter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connecter.designer.cs">
+      <DependentUpon>Connecter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Eleve.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve.designer.cs">
+      <DependentUpon>Eleve.cs</DependentUpon>
     </Compile>
     <Compile Include="Emploi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Emploi.designer.cs">
+      <DependentUpon>Emploi.cs</DependentUpon>
     </Compile>
     <Compile Include="Matiere.cs">
       <SubType>Form</SubType>
@@ -72,8 +84,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connecter.resx">
+      <DependentUpon>Connecter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve.resx">
+      <DependentUpon>Eleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emploi.resx">
+      <DependentUpon>Emploi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Matiere.resx">
       <DependentUpon>Matiere.cs</DependentUpon>
@@ -90,9 +111,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
